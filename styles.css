@@ -1,0 +1,131 @@
+* {
+    max-width: 100%;
+    font-family: "Cabin", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+    height: 4rem;
+    background-color: gold;
+    top: 0;
+}
+
+body {
+    background-color: lightblue;
+    padding-top: 8rem;
+    margin: 0;
+}
+
+footer {
+    max-width: 100%;
+    height: 4rem;
+    background-color: gold;
+    margin: -0.5rem;
+    padding: 0.5rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 1rem 1rem;
+    color: blue;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+    display: inline-block;
+    border: 0.25rem solid gold;
+    border-radius: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
+    text-align: left;
+    margin: 2rem;
+    padding-left: 2rem;
+}
+
+p strong {
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: blue;
+    margin-top: 1rem;
+    background-color: white;
+    height: 5rem;
+    vertical-align: middle;
+    line-height: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: blue;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: blue;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: blue;
+    margin-bottom: 4rem;
+}
+
+.socializing {
+    max-width: 100%;
+    margin-top: 4rem;
+}
+
+.socializing img {
+    width: 30%;
+}
+
+.action {
+    max-width: 100%;
+    margin-top: 4rem;
+}
+
+.action img {
+    width: 30%;
+}
+
+.schedule {
+    margin: 3rem;
+}
+
+.quote {
+    max-width: 100%;
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 800px) {
+    img {
+        display: block;
+        margin: 1rem auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .action img {
+        width: 85%;
+    }
+
+    .socializing img {
+        width: 70%;
+    }
+}
