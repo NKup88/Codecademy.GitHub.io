@@ -66,6 +66,7 @@ h1 {
     height: 5rem;
     vertical-align: middle;
     line-height: 5rem;
+    flex-wrap: no-wrap;
 }
 
 h2 {
