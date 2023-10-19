@@ -135,17 +135,17 @@ h4 {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 425px) {
     h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     h2 {
-        font-size: 1.75rem;
+        font-size: 1.6rem;
     }
 
     h3 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     h4 {
